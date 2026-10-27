@@ -38,6 +38,7 @@ The hard part of agentic AI in production isn't the prompt — it's the runtime:
 |---|---|
 | [**my_ai_issue_resolver**](https://github.com/sitareashish/my_ai_issue_resolver) | Autonomous **multi-agent** pipeline (LangGraph FSM) that turns a GitHub issue into a reviewed PR — context → developer → tester → reviewer agents with confidence-gated re-querying, a **Docker test sandbox**, a self-correcting retry loop, per-issue **token budgeting**, **Qdrant hybrid RAG** (dense + BM25, AST chunking), plus LangSmith/Prometheus tracing and an **evals harness** |
 | [**agentloop**](https://github.com/sitareashish/agentloop) | A from-scratch, **dependency-free agent runtime** — a `@tool` decorator that auto-generates JSON schemas from type hints, a plan→act→observe loop with retries and token budgeting, pluggable providers (Anthropic + an offline mock), and fully inspectable trajectories. 35 offline tests, ruff-clean, CI on Python 3.10–3.12 |
+| [**evalloop**](https://github.com/sitareashish/evalloop) | An **evaluation harness** for agents (companion to agentloop) — task suites, deterministic checks (output / tool-use / efficiency / errors), an optional **LLM-as-judge**, and scored reports: success rate, **tool-call precision/recall/F1**, steps, tokens and latency. 36 offline tests, ruff-clean, CI matrix |
 
 > 🔭 **Currently building:** an invisible macOS menu-bar AI assistant driven by the Claude agent bridge, and bringing agent-style tool-use into my systems projects.
 
