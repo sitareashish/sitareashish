@@ -10,10 +10,6 @@
   <b>B.Tech + M.Tech Dual Degree, CSE @ IIT Kharagpur</b> &nbsp;·&nbsp; Kharagpur, India
 </p>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=sitareashish&style=flat-square&color=58a6ff&label=Profile+views" alt="profile views" />
-</p>
-
 ---
 
 I build systems close to the metal — **matching engines, storage engines, bytecode VMs, network servers** — and apply that same low-latency, reliability-first toolkit to **AI and agent infrastructure**: the layer that decides whether agentic systems are fast, correct and cheap in production.
